@@ -166,7 +166,7 @@
   a,
   a:visited,
   a:hover {
-    color: #1976d2;
+    color: darkred;
     text-decoration: none;
   }
 
@@ -304,11 +304,18 @@
 
 <!-- Toolbar -->
 <div class="toolbar" role="banner">
-
+  <nav class="navbar fixed-top navbar-expand navbar-dark bg-dark">
+    <a href="/" class="navbar-brand">HDA-VIZ</a>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item" routerLinkActive="active">
+        <a routerLink="/home"  style="font-size: 18px">Home</a>
+      </li>
+    </ul>
+  </nav>
 </div>
 
 <div class="content" role="main">
-<!-- <h1>Hello</h1>-->
+
 </div>
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
