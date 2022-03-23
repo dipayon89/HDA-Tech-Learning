@@ -4,17 +4,20 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DashboardHomeComponent } from './dashboard-home/dashboard-home.component';
-// import { ChartsModule } from 'ng2-charts';
+import { ChartsModule } from 'ng2-charts';
+import { DashboardAccountComponent } from './dashboard-account/dashboard-account.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardHomeComponent
+    DashboardHomeComponent,
+    DashboardAccountComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ChartsModule,
     // ChartsModule
   ],
   providers: [],
