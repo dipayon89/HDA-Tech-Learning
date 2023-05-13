@@ -2,3 +2,4 @@ jupyter
 psycopg2
 pandas
 openpyxl
+matplotlib
